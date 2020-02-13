@@ -1,0 +1,32 @@
+@import "./normalize.css";
+
+
+body {
+  font-family: "Microsoft YaHei","微软雅黑",sans-serif;
+  user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
+  -webkit-tap-highlight-color: transparent;
+  width: 100vw;
+  line-height:1;
+}
+
+a{text-decoration:none;color:#333;}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;}
+p,dl,dd{margin:0;}
+ul,ol{list-style:none;margin:0;padding:0;}
+em,i{font-style:normal;}
+strong,b{font-weight: normal;}
+img{vertical-align: bottom;border: none;}
+table{ border-collapse: collapse;}
+th,td{padding:0;}
+th{font-weight:normal;}
+td{vertical-align: top;}
+input{margin:0;padding:0;outline:none;
+    /*清除表单元素获取焦点时的轮廓线*/
+    /*border:none;*/}
+input, textarea, select, button { font-family: inherit; font-size:inherit;}
+textarea{resize:none; overflow:auto;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;font-size: 0;height: 0;line-height:0;overflow: hidden}
+
+
+
